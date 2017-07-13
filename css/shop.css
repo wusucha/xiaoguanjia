@@ -1,0 +1,336 @@
+@import url(reset.css);
+.font10 {
+  transform: scale(0.83333333);
+  display: block;
+  transform-origin: left top;
+}
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.header {
+  width: 100%;
+  height: 0.82rem;
+  background: #4194f0;
+}
+.main {
+  -webkit-box-flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.main::-webkit-scrollbar {
+  width: 0;
+}
+.shop-head {
+  width: 100%;
+  height: 1.25rem;
+  background: #4194f0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.shop-head .headpic {
+  width: 1.06rem;
+  height: 1.06rem;
+  margin: auto .2rem auto .3rem;
+  position: relative;
+}
+.shop-head .headpic img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.shop-head .dayang {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.shop-head .star {
+  width: .35rem;
+  height: .35rem;
+  background: url(../img/shopimg/star-red.png) no-repeat;
+  background-size: .35rem .35rem;
+  padding-right: 0.2rem;
+}
+.shop-head .star.star-white {
+  background: url(../img/shopimg/star-white.png) no-repeat;
+  background-size: .35rem .35rem;
+  padding-right: 0.2rem;
+}
+.shop-head .headtxt {
+  -webkit-box-flex: 1;
+  height: 1.05rem;
+}
+.shop-head .headtxt .tongpai {
+  width: 0.58rem;
+  height: 0.3rem;
+  background: none;
+  display: block;
+  margin-top: 0.12rem;
+}
+.shop-head .headtxt .kindft {
+  color: white;
+  margin-bottom: 0.2rem;
+  margin-top: -0.23rem;
+}
+.goodslist {
+  width: 100%;
+  height: 33px;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #cccccc;
+}
+.goodslist .goodsinfo {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  height: 31px;
+  line-height: 0.62rem;
+  font-size: .26rem;
+}
+.goodslist .goodsinfo.active {
+  color: #4194f0;
+  border-bottom: 3px solid #4194f0;
+}
+.goods {
+  width: 100%;
+  height: 8.21rem;
+  background: null;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.goods .leftgoods {
+  width: 1.36rem;
+  height: 8.21rem;
+  background: #f5f5f5;
+  border-right: 1px #eaeaea solid;
+}
+.goods .leftgoods .list-item {
+  display: block;
+  border-bottom: 1px #eaeaea solid;
+  padding: .44rem .17rem;
+  line-height: .28rem;
+  color: #999999;
+  font-size: 0.24rem;
+}
+.goods .leftgoods .active {
+  background: #fff;
+  color: #4194f0;
+}
+.goods .rightgoods {
+  width: auto;
+  height: 8.21rem;
+  background: #ffffff;
+  -webkit-box-flex: 1;
+}
+.goods .rightgoods .right_nav {
+  width: 100%;
+  height: 0.64rem;
+  background: #f4f4f6;
+  border-bottom: 1px #eaeaea solid;
+  border-left: 9px #d8d8d8 solid;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+}
+.goods .rightgoods .right_nav .nav_goods {
+  width: 0.8rem;
+  height: 0.44rem;
+  background: #ffffff;
+  border: 1px #d8d8d8 solid;
+  box-sizing: border-box;
+  display: block;
+  border-radius: .22rem;
+  text-align: center;
+  line-height: .42rem;
+  margin-left: .25rem;
+}
+.goods .rightgoods .right_nav .nav_goods:first-child {
+  margin-left: 0.27rem;
+  line-height: .44rem;
+  border: none;
+  background: #4194F0;
+  color: white;
+}
+.goods .rightgoods .main_goods {
+  width: null;
+  height: auto;
+  background: #ffffff;
+  border-bottom: 1px #eeeeee solid;
+  margin: 0 0.17rem 0 0.2rem;
+  position: relative;
+  padding-bottom: 0.15rem;
+}
+.goods .rightgoods .main_goods .cut {
+  position: absolute;
+  left: -0.2rem;
+  top: 0;
+  width: .58rem;
+}
+.goods .rightgoods .main_goods .add {
+  width: 0.4rem;
+  height: 0.4rem;
+  background: #acacac;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: .04rem;
+  bottom: .44rem;
+  line-height: .4rem;
+}
+.goods .rightgoods .main_goods .add img {
+  width: .24rem;
+}
+.goods .rightgoods .main_goods .normal {
+  bottom: .13rem;
+}
+.goods .rightgoods .main_goods .addblue {
+  background: #4194f0;
+}
+.goods .rightgoods .main_goods .top_goods {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-top: .2rem;
+  margin-bottom: 0.13rem;
+}
+.goods .rightgoods .main_goods .right_txt {
+  -webkit-box-flex: 1;
+}
+.goods .rightgoods .main_goods .left_pic {
+  width: 1.06rem;
+  height: 1.06rem;
+  background: null;
+  position: relative;
+}
+.goods .rightgoods .main_goods .left_pic img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.goods .rightgoods .main_goods .left_pic .shop-over {
+  position: absolute;
+  top: 0.08rem;
+  left: 0.08rem;
+  width: 0.88rem;
+  height: 0.88rem;
+}
+.goods .rightgoods .main_goods .price {
+  font-size: .22rem;
+  color: #ff5a64;
+  letter-spacing: 0.01rem;
+}
+.goods .rightgoods .main_goods .old-price {
+  text-decoration: line-through;
+  margin-left: 0.1rem;
+  color: #c8c8c8;
+}
+.goods .rightgoods .main_goods .down_goods {
+  border: 1px #ff8c33 solid;
+  color: #ff8c33;
+  line-height: .26rem;
+}
+.goods .rightgoods .main_goods .down_goods .end {
+  padding: 0 .05rem;
+}
+.goods .rightgoods .main_goods .down_goods .time {
+  background: #ff8c33;
+  color: #fff;
+  padding: 0 .1rem;
+}
+.footer {
+  width: 100%;
+  height: 0.88rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 90;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.footer .footer_car {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: null;
+  background: #393939 url(../img/shopimg/shopcar.png) no-repeat center center;
+  background-size: 0.48rem auto;
+  border-radius: 50%;
+  border: .1rem #4d4d4d solid;
+  position: absolute;
+  left: .2rem;
+  top: -0.3rem;
+}
+.footer .footer_price {
+  -webkit-box-flex: 1;
+  margin-left: 1.44rem;
+  margin-top: 0.2rem;
+  color: white;
+}
+.footer .footer_status {
+  width: 2.3rem;
+  height: 0.88rem;
+  background: #535558;
+  color: #d9d9d9;
+  font-size: 0.32rem;
+  text-align: center;
+  line-height: 0.88rem;
+}
+.zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.zhezhao .inner {
+  width: 4.65rem;
+  height: 6.05rem;
+  background: #ffffff;
+  border-radius: .1rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.325rem;
+  top: 50%;
+  margin-top: -3.025rem;
+}
+.zhezhao .inner .close {
+  width: 0.54rem;
+  height: 0.54rem;
+  background: null;
+  background: url(../img/shopimg/close.png) no-repeat;
+  background-size: 0.54rem auto;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+.zhezhao2 {
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.shopping-car {
+  width: 100%;
+  height: 42.10526316%;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 80;
+}
